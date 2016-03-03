@@ -1,6 +1,6 @@
 <?php
 session_start();
-require "controller/classe.php";
+require "app/classe.php";
 
 if(isset($_GET['view'])){
     $view = $_GET['view'];

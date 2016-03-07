@@ -10,6 +10,7 @@ if(isset($_GET['view'])){
 
 ob_start();
 
+if($view === 'test'){require "view/test.php";}
 
 $content = ob_get_contents();
 if($view === 'login'){

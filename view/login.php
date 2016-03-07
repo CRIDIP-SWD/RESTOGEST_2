@@ -2,14 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Themes Lab - Creative Laborator</title>
+    <title><?= \App\GENERAL\constante::NOM_SITE; ?> - Connexion</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="" name="description" />
     <meta content="themes-lab" name="author" />
-    <link rel="shortcut icon" href="assets/img/favicon.png">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/ui.css" rel="stylesheet">
-    <link href="assets/plugins/bootstrap-loading/lada.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="<?= $constante->getUrl(array('img/')); ?>favicon.png">
+    <link href="<?= $constante->getUrl(array('css/')); ?>style.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('css/')); ?>ui.css" rel="stylesheet">
+    <link href="<?= $constante->getUrl(array('plugins/')); ?>bootstrap-loading/lada.min.css" rel="stylesheet">
 </head>
 <body class="account2" data-page="login">
 <!-- BEGIN LOGIN BOX -->
@@ -29,17 +29,7 @@
                 <input type="password" name="password" class="form-control form-white password" placeholder="Mot de Passe" required>
                 <i class="icon-lock"></i>
             </div>
-            <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left">Sign In</button>
-            <span class="forgot-password"><a id="password" href="account-forgot-password.html">Forgot password?</a></span>
-            <div class="form-footer">
-                <div class="social-btn">
-                    <button type="button" class="btn-fb btn btn-lg btn-block btn-square"><i class="fa fa-facebook pull-left"></i>Connect with Facebook</button>
-                    <button type="button" class="btn btn-lg btn-block btn-blue btn-square"><i class="fa fa-twitter pull-left"></i>Login with Twitter</button>
-                </div>
-                <div class="clearfix">
-                    <p class="new-here"><a href="user-signup-v2.html">New here? Sign up</a></p>
-                </div>
-            </div>
+            <button type="submit" id="submit-form" class="btn btn-lg btn-dark btn-rounded ladda-button" data-style="expand-left">Connexion</button>
         </form>
     </div>
 </div>

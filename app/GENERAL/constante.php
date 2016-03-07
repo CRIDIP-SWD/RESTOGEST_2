@@ -15,7 +15,7 @@ class constante
     const URL               = "test.restogest.com/";
     const ASSETS            = "assets/";
     const NOM_SITE          = "RESTOGEST";
-    const SOURCES           = "https://ns342142.ip-5-196-76.eu/sources/gc/";
+    const SOURCES           = "https://ns342142.ip-5-196-76.eu/sources/restogest/";
     const MAINTENANCE       = 0;
     const IP_MAIN           = "109.190.224.161";
     const IP_SRC            = "ns342142.ip-5-196-76.eu";

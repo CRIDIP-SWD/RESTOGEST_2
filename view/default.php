@@ -49,14 +49,11 @@
     <div class="sidebar">
         <div class="logopanel">
             <h1>
-                <a href="dashboard.html"></a>
+                <a href="index.php?view=index"></a>
             </h1>
         </div>
         <div class="sidebar-inner">
             <div class="sidebar-top">
-                <form action="search-result.html" method="post" class="searchform" id="search-results">
-                    <input type="text" class="form-control" name="keyword" placeholder="Search...">
-                </form>
                 <div class="userlogged clearfix">
                     <i class="icon icons-faces-users-01"></i>
                     <div class="user-details">
